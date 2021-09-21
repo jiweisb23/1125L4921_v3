@@ -2,8 +2,8 @@ var express = require('express');
 var app     = express();
 
 app.get('/', function(req,res){
-   console.log(':)), Server New Hit: ' + timeStamp())
-   res.send(':)), Server New Hit: ' + timeStamp());
+   console.log(':)), HI THIS IS JOSH WEISBERGs WEBSITE Server New Hit: ' + timeStamp())
+   res.send(':)), HI THIS IS JOSH WEISBERGs WEBSITE Server New Hit: ' + timeStamp());
 });
 
 function timeStamp(){
